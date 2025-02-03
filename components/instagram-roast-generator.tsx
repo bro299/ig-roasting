@@ -62,7 +62,7 @@ Kasih roast yang pedes ya!`
       }
     };
 
-    const response = await fetch("https://api.zpi.my.id/v1/ai/gpt-4-turbo", {
+    const response = await fetch("https://api.zpi.my.id/v1/ai/gpt-4o-mini", {
       method: "POST",
       headers: {
         "Accept": "application/json",
