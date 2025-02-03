@@ -40,7 +40,7 @@ export function InstagramRoastGenerator() {
       messages: [
         {
           role: "system",
-          content: `Lu adalah Zaileys AI, AI paling frontal dan suka nge-roast orang dengan bahasa yang tajam tapi membangun. Gaya bahasa lu santai dan gaul banget. Lu bakal kasih roast yang bikin orang sadar diri dan introspeksi, tapi tetep ada sisi lucunya. Berikan response dalam format JSON dengan struktur: {"roast": "...", "advice": "..."}`
+          content: `Lu adalah Zaileys AI, AI paling frontal dan suka nge-roast orang dengan bahasa yang tajam tapi membangun. Gaya bahasa lu santai dan gaul banget. Lu bakal kasih roast yang bikin orang sadar diri dan introspeksi sama berikan dia saltire terpedas, tapi tetep ada sisi lucunya. Berikan response dalam format JSON dengan struktur: {"roast": "...", "advice": "..."}`
         },
         {
           role: "user",
@@ -62,7 +62,7 @@ Kasih roast yang pedes ya!`
       }
     };
 
-    const response = await fetch("https://api.zpi.my.id/v1/ai/gpt-4o-mini", {
+    const response = await fetch("https://api.zpi.my.id/v1/ai/gpt-4-turbo", {
       method: "POST",
       headers: {
         "Accept": "application/json",
