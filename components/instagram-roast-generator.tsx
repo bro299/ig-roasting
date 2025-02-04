@@ -94,7 +94,7 @@ Kasih roast yang pedes ya!`
   };
 
   const processInstagramProfile = async (username: string): Promise<ProfileData> => {
-    const API_KEY = "69034d9a4emsh3a0fd7132c5ba61p15bce3jsn43fd6f13116a";
+    const API_KEY = "09c46133c1mshbbb3830e60d1d35p1fbe02jsnb2fdbdd24f58";
 
     try {
       const instagramResponse = await axios.get(
