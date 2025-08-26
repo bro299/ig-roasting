@@ -1,4 +1,4 @@
-import { InstagramRoastGenerator } from "./components/instagram-roast-generator";
+import { InstagramRoastGenerator } from "./components/InstagramRoastGenerator";
 
 function App() {
   return (
